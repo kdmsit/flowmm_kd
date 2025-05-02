@@ -13,7 +13,7 @@ import torch
 from omegaconf import DictConfig, OmegaConf
 from torch.utils.data import Dataset
 from torch_geometric.data import Data
-from torch_geometric.loader import DataLoader
+from torch_geometric.data import DataLoader
 
 import flowmm
 import wandb
